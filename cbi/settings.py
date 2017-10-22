@@ -19,6 +19,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
+# TODO: Regenerate secret key and place in secret_key.txt
+# TODO: See project checklist link above before making API_KEYS public
+
 # SECURITY WARNING: keep the secret key used in production secret!
 '''
 secret_key_path = os.path.relpath('cbi/secret_key_path.txt')
