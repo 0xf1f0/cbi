@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 '''
-secret_key_path = os.path.relpath('cbi/secret_key_path.txt')
+secret_key_path = os.path.relpath('cbi/secret_key.txt')
 with open(google_maps_api_key_path) as f:
     SECRET_KEY = f.read().strip()
 '''

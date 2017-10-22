@@ -1,0 +1,3 @@
+# Ignore Google maps API key file
+cbi/google_maps_api_key.txt
+db.sqlite3
