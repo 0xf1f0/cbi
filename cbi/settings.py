@@ -20,6 +20,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
+'''
+secret_key_path = os.path.relpath('cbi/secret_key_path.txt')
+with open(google_maps_api_key_path) as f:
+    SECRET_KEY = f.read().strip()
+'''
+
 SECRET_KEY = 'z7@)zqiqw0*f$=@4jl)53qs!6s4k!hwvxh@y_mdmbim)zy@@o#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -120,3 +126,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# Get the Google maps API key from file in the current directory
+google_maps_api_key_path = os.path.relpath('cbi/google_maps_api_key.txt')
+with open(google_maps_api_key_path) as f:
+    GOOGLE_MAPS_API_KEY = f.read().strip()
