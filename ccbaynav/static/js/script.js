@@ -2,9 +2,9 @@
  * Initialize and display Google maps
  */
 
-var initial_lat = 27.81688;         //  The corresponding latitude of map center at initialization.
-var initial_long = -97.344177;      //  The corresponding longitude of map center at initialization.
-var initial_zoom = 10;              //  The corresponding zoom of map center at initialization.
+var initial_lat = 27.802912;         //  The corresponding latitude of map center at initialization.
+var initial_long = -97.355775;      //  The corresponding longitude of map center at initialization.
+var initial_zoom = 12;              //  The corresponding zoom of map center at initialization.
 var map;
 
 function initMap() {

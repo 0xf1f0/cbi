@@ -125,7 +125,3 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, "static"), ]
 
-# Get the Google maps API key from file in the current directory
-google_maps_api_key_path = os.path.relpath('cbi/google_maps_api_key.txt')
-with open(google_maps_api_key_path) as f:
-    GOOGLE_MAPS_API_KEY = f.read().strip()
